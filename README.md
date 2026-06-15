@@ -60,7 +60,7 @@ MCP MySQL Server 是一个基于 [@modelcontextprotocol/sdk](https://www.npmjs.c
 - 主要配置项见 `src/config.js`
 - 当mysql-mcp-server和MySQL服务不在同一地址时，注意给登录的用户和需要访问的库开放权限
   ```bash
-  CREATE USER 'nnn'@'10.200.100.184' IDENTIFIED BY 'password';
+  CREATE USER 'nnn'@'xxx.xxx.xxx.xx' IDENTIFIED BY 'password';
   GRANT ALL PRIVILEGES ON your_db.* TO 'nnn'@'xxx.xxx.xxx.xx';
   GRANT ALL PRIVILEGES ON *.* 
   TO 'nnn'@'xxx.xxx.xxx.xx';
