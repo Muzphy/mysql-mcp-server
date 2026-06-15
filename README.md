@@ -127,6 +127,24 @@ mcp server 的格式是如何呢
   }
 }
 ```
+附deerflow配置参考
+```jsx
+"mysql-mcp-server": {
+      "enabled": true,
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "mysql-mcp-server"],
+      "env": {
+        "MYSQL_HOST": "xxx.xxx.xxx.xx",
+        "MYSQL_PORT": "1234",
+        "MYSQL_USER": "username",
+        "MYSQL_PASSWORD": "password",
+        "MYSQL_DATABASE": "database"
+      }
+    }
+```
+
+
 
 
 
